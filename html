@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Eaux de paris</title>
+
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<link rel="stylesheet" type="text/css" href="css/stylesMobile.css" media="screen and (max-width:720px)">
+
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	
+
+
+</head>
+
+<body>
+	<header>
+		<div class="haut">
+		<div class="ham">
+			<span class="line un"></span>
+			<span class="line deux"></span>
+			<span class="line trois"></span>
+		</div>
+		<div class="logo">
+			<a href="index.php"><img src="images/logo.png" alt="logo Eaux de Paris"></a>
+		</div>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="entreprise.php">L'entreprise publique</a></li>
+				<li><a href="metiers.php">Les métiers</a></li>
+				<li><a href="eau.php">L'eau au quotidien</a></li>
+				<li><a href="culture.php">L'espace culture</a></li>
+			</ul>
+		</nav>
+		
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+
+
+			<script> $(".ham").on('click',function(){
+					$(this).toggleClass("actif")
+					$('nav ul').toggleClass('visible');})
+		
+
+		       $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+	</script>
+	
+</body>
+</html>
