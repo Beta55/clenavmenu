@@ -1,0 +1,49 @@
+body{
+	margin: 0;
+	max-width:1200px;
+	margin:0 auto;
+
+}
+
+ul,ol{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.actif{
+	color:lightblue;
+	text-decoration:underline;
+}
+/* --- HEADER ET MENU --- */
+.logo{
+	text-align: center;
+}
+
+.
+.ham{
+	display: none;
+}
+
+/* --- MENU --- */
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	background: #195ba3;
+	line-height: 65px;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+	position: relative;
+	z-index: 2;
+}
+nav a:hover{
+	color: black;
+}
+nav>img{
+	display: none;
+}
+
